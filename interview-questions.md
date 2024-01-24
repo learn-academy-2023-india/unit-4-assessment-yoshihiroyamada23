@@ -86,8 +86,8 @@ rbenv and rvm are used for managing different Ruby versions
 
 Research and define the following terms.
 
-1. Database migrations:
+1. Database migrations: Database migrations is a file that is generated through a Rails terminal command that allow us to make changes to the database schema. We can edit a column's name or data type, adding a new column, or removing an unnecessary column. 
 
-2. Model validations:
+2. Model validations: Used to ensure that only clean and valid data gets saved into the database. Rails runs all model validations before content is added to the database. The content will not be saved if there are errors.
 
-3. Params:
+3. Params: Extra pieces of information that are passed in the URL. Param data can then be used by the controller which can in turn, dynamically modify the view.
